@@ -1,45 +1,47 @@
+import { Link } from "react-router-dom";
+
 function NavBar({ currentPage, handlePageChange }) {
     return(
       <ul className="nav nav-tabs">
         <li className="nav-item">
-        <a href="#Home"
-        onClick={() => handlePageChange('home')}
+        <Link to="/home"
+        onClick={() => handlePageChange('Home')}
         className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
           Home
-        </a>
+        </Link>
         </li>
         <li className="nav-item">
-          <a href="#about"
+          <Link to="/about"
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
           >
             About
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a href="#portfolio"
+          <Link to="/portfolio"
           onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
           >
             Portfolio
-            </a>
+            </Link>
         </li>
         <li className="nav-item">
-          <a href="#Contact"
+          <Link to="/contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
           >
             Contact Me
-          </a>
+          </Link>
 
         </li>
         <li className="nav-item">
-          <a href="#Resume"
-          onClick={() => handlePageChange('resume')}
-          className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'}
+          <Link to="/resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
           >
             Resume
-          </a>
+          </Link>
           
         </li>
       </ul>

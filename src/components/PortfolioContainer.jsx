@@ -32,7 +32,7 @@ export default function PortfolioContainer() {
     return (
         <div>
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-            <main className="mx-3">{renderPage}</main>
+            <main className="mx-3">{renderPage()}</main>
 
         </div>
     )

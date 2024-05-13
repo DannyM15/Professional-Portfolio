@@ -13,7 +13,8 @@ function Projects(props) {
     return (
     <div className="card">
         <div className="card-body">
-        {props.key}
+        {props.project.key}
+        {props.project.title}
         </div>
     </div>
     )

@@ -9,7 +9,7 @@ function Portfolio () {
         console.log(db)
             return <Projects key={index} project={project} />
             
-        }, [])
+        },)
     }
     </>
 }
