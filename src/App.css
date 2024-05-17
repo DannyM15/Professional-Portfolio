@@ -41,3 +41,11 @@
   color: #888;
 }
 
+footer {
+  margin-top: auto;
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  
+}
