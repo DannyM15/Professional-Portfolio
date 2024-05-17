@@ -1,9 +1,13 @@
 import PropTypes from 'prop-types';
 
+
+
+
 function MyComponent(props) {
     return <div>{props.name}</div>;
-  }
-  
+}
+
+
 MyComponent.propTypes = {
     name: PropTypes.string,
 }; 
@@ -17,9 +21,10 @@ function Projects(props) {
       <h3>  {props.project.title} <br /> </h3>
      <img src={props.project.image}></img> <br /> 
         {props.project.description}<br /> 
-        {props.project.link}<br /> 
-        {props.project.github}
+       <a href={props.project.link}>View the Project</a><br /> 
+       <a href={props.project.github}>Github Page</a>
         </div>
+    
     </div>
     )
 }

@@ -1,4 +1,6 @@
 import Footer from "../Footer"
+import myImage from '../../assets/images/Danny.jpeg'
+import '../../App.css';
 
 
 export default function Home() {
@@ -6,7 +8,7 @@ export default function Home() {
         <div>
             <h1>Home Page</h1>
             <div>
-                <img src="../../assets/images/Danny.jpeg"></img>
+                <img className="image-container" src={myImage} ></img>
             </div>
             
             <div>

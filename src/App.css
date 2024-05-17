@@ -47,5 +47,10 @@ footer {
   padding: 10px;
   text-align: center;
   display: flex;
-  
+}
+
+.image-container {
+  width: 50%;
+  height: 40%;
+
 }

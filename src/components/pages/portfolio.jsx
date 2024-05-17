@@ -1,5 +1,8 @@
 import Projects from '../projects'
 import db from '../../db/db.json'
+import Footer from '../Footer'
+
+
 
 function Portfolio () {
     return <>
@@ -11,6 +14,9 @@ function Portfolio () {
             
         },)
     }
+    <footer>
+        <Footer />
+    </footer>
     </>
 }
 
