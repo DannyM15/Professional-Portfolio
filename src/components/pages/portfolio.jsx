@@ -5,19 +5,22 @@ import '../../App.css';
 
 
 
-function Portfolio () {
+function Portfolio() {
     return <>
-    <h1>Portflio</h1>
-    {
-        db.map((project, index) => {
-        console.log(db)
-            return <Projects key={index} project={project} />
-            
-        },)
-    }
-    <footer>
-        <Footer />
-    </footer>
+        <h1>Portflio</h1>
+         <div className='row'>
+            {
+
+                db.map((project, index) => {
+                    console.log(db)
+                    return <Projects key={index} project={project} />
+
+                },)
+            }
+        </div>
+        <footer>
+            <Footer />
+        </footer>
     </>
 }
 

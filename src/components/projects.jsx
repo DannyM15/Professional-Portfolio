@@ -15,11 +15,11 @@ MyComponent.propTypes = {
 
 function Projects(props) {
     return (
-    <div className="card">
+    <div className="card col-sm-6">
         <div className="card-body">
         {props.project.key} 
       <h3>  {props.project.title} <br /> </h3>
-     <img src={props.project.image}></img> <br /> 
+     <img className='w-100' src={props.project.image}></img> <br /> 
         {props.project.description}<br /> 
        <a href={props.project.link}>View the Project</a><br /> 
        <a href={props.project.github}>Github Page</a>
