@@ -1,6 +1,7 @@
 import Projects from '../projects'
 import db from '../../db/db.json'
 import Footer from '../Footer'
+import '../../App.css';
 
 
 

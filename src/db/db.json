@@ -2,14 +2,14 @@
     {
         "title": "Search Engine Optimization",
         "description": "Here I was tasked with increasing the accecibilty of the website and increasing the visibility by search engines.",
-        "image": "./assets/images/Horiseon.PNG",
+        "image": "assets/images/Horiseon.PNG",
         "link": "https://dannym15.github.io/FMA/",
         "github": "https://github.com/DannyM15/FMA"
     },
     {
         "title": "Page Turner Plates",
         "description": "A recipe search engine for that provides recipes and cookbooks based on the search criteria.",
-        "image": "PageTurnerPlates.PNG",
+        "image": "assets/images/PageTurnerPlates.PNG",
         "link": "https://dannym15.github.io/Page-Turner-Plates/",
         "github": "https://github.com/DannyM15/Page-Turner-Plates"
     },

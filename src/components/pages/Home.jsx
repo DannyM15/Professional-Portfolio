@@ -1,5 +1,4 @@
 import Footer from "../Footer"
-import myImage from '../../assets/images/Danny.jpeg'
 import '../../App.css';
 
 
@@ -8,24 +7,24 @@ export default function Home() {
         <div>
             <h1>Home Page</h1>
             <div>
-                <img className="image-container" src={myImage} ></img>
+                <img className="image-container" src="assets/images/Danny.jpeg" ></img>
             </div>
-            
-            <div>
-
-            <br />  <GoTime /><br />
+<div className="HomeStyle">
+            <div><br />  <GoTime /><br />
             </div>
             <br />
-            <div>
-                <DescribeMe />
-            </div>
-            <div> </div><br />
-            <div>
-                <UseNav />
-            </div>
-            <footer> 
-                <Footer/>
-            </footer>
+            
+                <div>
+                    <DescribeMe />
+                </div>
+                <div> </div><br />
+                <div>
+                    <UseNav />
+                </div> </div>
+                <footer>
+                    <Footer />
+                </footer>
+           
         </div>
     )
 }
@@ -47,6 +46,6 @@ function DescribeMe() {
 }
 
 function UseNav() {
-    return (`    Please use the navigation link to explore my resume, view my profile, or get in contact with me.  I'm looking
+    return (`Please use the navigation link to explore my resume, view my profile, or get in contact with me.  I'm looking
     forward to hearing from you.`)
 }

@@ -11,14 +11,6 @@ function NavBar({ currentPage, handlePageChange }) {
         </Link>
         </li>
         <li className="nav-item">
-          <Link to="/about"
-          onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >
-            About
-          </Link>
-        </li>
-        <li className="nav-item">
           <Link to="/portfolio"
           onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}

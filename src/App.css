@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #afe4df;
 }
 
 .logo {
@@ -35,6 +36,14 @@
 
 .card {
   padding: 2em;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  flex: 1 1 80%;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  height: auto;
 }
 
 .read-the-docs {
@@ -53,4 +62,13 @@ footer {
   width: 50%;
   height: 40%;
 
+}
+.HomeStyle {
+  font-size: large;
+  font-weight: bold;
+}
+
+.card-body {
+  background-color: #ADD8E6;
+  gap: 1rem;
 }
