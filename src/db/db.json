@@ -3,8 +3,8 @@
         "title": "Search Engine Optimization",
         "description": "Here I was tasked with increasing the accecibilty of the website and increasing the visibility by search engines.",
         "image": "assets/images/Horiseon.PNG",
-        "link": "https://dannym15.github.io/FMA/",
-        "github": "https://github.com/DannyM15/FMA"
+        "link": "https://dannym15.github.io/YYH/",
+        "github": "https://github.com/DannyM15/YYH"
     },
     {
         "title": "Page Turner Plates",
@@ -16,21 +16,21 @@
     {
         "title": "ReelTalk",
         "description": "Forum where you can discuss your opinions about movies and give them a star rating",
-        "image": "PageTurnerPlates.PNG",
+        "image": "assets/images/ReelTalk.PNG",
         "link": "https://reel-talk-dm-ed0ac511af21.herokuapp.com/",
         "github": "https://github.com/DannyM15/ReelTalk"
     },
     {
         "title": "NoteTaker",
         "description": "Note Taking app where you can create, edit, and delete notes to stay more organized.",
-        "image": "PageTurnerPlates.PNG",
+        "image": "assets/images/NoteTaker.PNG",
         "link": "https://notetake-dm-1e86babf485a.herokuapp.com/notes",
         "github": "https://github.com/DannyM15/NoteTaker"
     },
     {
         "title": "Text Editor Extreme",
         "description": "A text editor that has the functionality to be downloaded onto your device.",
-        "image": "PageTurnerPlates.PNG",
+        "image": "assets/images/TextEditor.PNG",
         "link": "https://text-editor-extreme.onrender.com/",
         "github": "https://github.com/DannyM15/text-editor-extreme"
     }
