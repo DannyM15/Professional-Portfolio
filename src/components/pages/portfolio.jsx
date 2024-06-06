@@ -7,7 +7,7 @@ import '../../App.css';
 
 function Portfolio() {
     return <>
-        <h1>Portflio</h1>
+        <h1>Portfolio</h1>
          <div className='row'>
             {
 

@@ -1,9 +1,9 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #afe4df;
+  background-color: #E0F7FA;
+  color: #333;
 }
 
 .logo {
@@ -18,6 +18,11 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.card {
+  flex-direction: row;
+  
+}
+
 
 @keyframes logo-spin {
   from {
@@ -50,17 +55,11 @@
   color: #888;
 }
 
-footer {
-  margin-top: auto;
-  background-color: #ccc;
-  padding: 10px;
-  text-align: center;
-  display: flex;
-}
 
 .image-container {
   width: 50%;
   height: 40%;
+  
 
 }
 .HomeStyle {
@@ -72,3 +71,4 @@ footer {
   background-color: #ADD8E6;
   gap: 1rem;
 }
+

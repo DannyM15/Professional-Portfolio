@@ -3,29 +3,40 @@ import '../../App.css';
 
 
 export default function Home() {
-    return (
-        <div>
-            <h1>Home Page</h1>
-            <div>
-                <img className="image-container" src="assets/images/Danny.jpeg" ></img>
-            </div>
-<div className="HomeStyle">
-            <div><br />  <GoTime /><br />
-            </div>
-            <br />
+    return (<>
+        <div className="row vh-100">
+
             
+            <div className="col-sm-4">
+                
+                <div className="HomeStyle">
+                    <img className="image-container" src="assets/images/Danny.jpeg" ></img>
+
+                </div>
+            </div>
+
+            <div className="col-sm-8 mt-5">
+                <h1>Danny's Portfolio</h1>
+
+                <div>  <GoTime />
+                </div>
+
                 <div>
                     <DescribeMe />
                 </div>
-                <div> </div><br />
+
                 <div>
                     <UseNav />
-                </div> </div>
-                <footer>
-                    <Footer />
-                </footer>
-           
+                </div>
+            </div>
         </div>
+
+
+        <footer>
+            <Footer />
+        </footer>
+
+    </>
     )
 }
 
