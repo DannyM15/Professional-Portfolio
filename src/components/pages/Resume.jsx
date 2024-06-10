@@ -1,15 +1,19 @@
+import Footer from "../Footer"
 import ResumeDL from "../ResumeLink"
 
 export default function Resume() {
-    return(
-        <div>
+    return( <>
+        <div className="vh-100">
             <h1>Resume</h1>
             <div> </div>
             <ResumeDesc /> <br/>
             <div> </div><br/><br/><br/>
 
             <ResumeDL />
+            
         </div>
+        <Footer />
+        </>
     )
 }
 

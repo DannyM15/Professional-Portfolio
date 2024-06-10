@@ -5,7 +5,6 @@ import '../../App.css';
 export default function Home() {
     return (<>
         <div className="row vh-100">
-
             
             <div className="col-sm-4">
                 
@@ -15,8 +14,8 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="col-sm-8 mt-5">
-                <h1>Danny's Portfolio</h1>
+            <div className="col-sm-8 mt-5 ">
+                <h1 >Danny's Portfolio</h1>
 
                 <div>  <GoTime />
                 </div>

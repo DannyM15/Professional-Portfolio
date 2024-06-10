@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function NavBar({ currentPage, handlePageChange }) {
     return(
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-underline">
         <li className="nav-item">
         <Link to="/home"
         onClick={() => handlePageChange('Home')}
