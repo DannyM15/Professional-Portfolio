@@ -1,5 +1,12 @@
 [
     {
+        "title": "Player Archive",
+        "description": "An App dedicated to creating a library for gamers to show off their gaming library and progress.",
+        "image": "assets/images/Player-Archive.PNG",
+        "link": "https://player-archive-420y.onrender.com/",
+        "github": "https://github.com/DannyM15/Player-Archive"
+    },
+    {
         "title": "Search Engine Optimization",
         "description": "Here I was tasked with increasing the accecibilty of the website and increasing the visibility by search engines.",
         "image": "assets/images/Horiseon.PNG",

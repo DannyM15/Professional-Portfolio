@@ -46,17 +46,7 @@ a {
   }
 }
 
-.card {
-  padding: 2em;
-  display: flex;
-  width: 50%;
-  flex-wrap: wrap;
-  flex: 1 1 80%;
-  justify-content: center;
-  box-sizing: border-box;
-  align-items: center;
-  height: auto;
-}
+
 
 .read-the-docs {
   color: #888;
