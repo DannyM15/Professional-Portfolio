@@ -1,7 +1,7 @@
 function ResumeDL() {
     return (
       <div>
-        <a href="assets/Resume10.2023.pdf" download="assets/Resume10.2023.pdf">
+        <a href="assets/DM_Resume_2024.pdf" download="assets/DM_Resume_2024.pdf">
           Download Resume
         </a>
       </div>
